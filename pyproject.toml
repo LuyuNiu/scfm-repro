@@ -1,0 +1,7 @@
+[project]
+name = "scfm-repro"
+version = "0.1.0"
+description = "Seed or fix the random sampling steps of single-cell foundation models, and check reproducibility with the kNN Jaccard index."
+requires-python = ">=3.8"
+dependencies = ["numpy", "scikit-learn"]
+license = {text = "MIT"}
